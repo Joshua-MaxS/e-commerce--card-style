@@ -132,6 +132,41 @@ body {
   background: #fff;
   opacity: 1;
 }
+.card .details .group {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+.card .details .group h2 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 2em;
+}
+.card .details .group h2 sup {
+  font-weight: 300;
+}
+.card .details .group h2 small {
+  font-size: 0.75em;
+}
+.card .details .group a {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 10px 25px;
+  text-decoration: none;
+  background: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #2e80dd;
+}
 .card .details::before {
   content: "";
   position: absolute;

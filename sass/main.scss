@@ -103,6 +103,33 @@ body {
         opacity: 1;
       }
     }
+    .group {
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 20px;
+      h2 {
+        color: $text-color;
+        font-weight: 600;
+        font-size: 2em;
+        sup {
+          font-weight: 300;
+        }
+        small {
+          font-size: 0.75em;
+        }
+      }
+      a {
+        display: inline-flex;
+        padding: 10px 25px;
+        text-decoration: none;
+        background: #fff;
+        text-transform: uppercase;
+        font-weight: 500;
+        color: $card-backgrouns;
+      }
+    }
   }
   .details::before {
     content: '';

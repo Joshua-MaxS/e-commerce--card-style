@@ -1,6 +1,6 @@
 $background: #1b71f3;
 $text-color: #fff;
-$card-backgrouns: #2ab9fc;
+$card-backgrouns: #2e80dd;
 
 * {
   margin: 0;
@@ -78,6 +78,30 @@ body {
       color: $text-color;
       opacity: 0.85;
       font-size: 0.8em;
+    }
+    .color {
+      display: flex;
+      gap: 10px;
+      li {
+        list-style: none;
+        color: $text-color;
+        font-size: 0.9em;
+        width: 70px;
+        height: 40px;
+        border: 2px solid $text-color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 500;
+        opacity: 0.65;
+        cursor: pointer;
+        transition: 0.5s;
+      }
+      li:hover {
+        color: $card-backgrouns;
+        background: $text-color;
+        opacity: 1;
+      }
     }
   }
   .details::before {

@@ -60,7 +60,7 @@ body {
   position: relative;
   min-width: 300px;
   height: 100%;
-  background: #2ab9fc;
+  background: #2e80dd;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -98,6 +98,39 @@ body {
   color: #fff;
   opacity: 0.85;
   font-size: 0.8em;
+}
+.card .details .color {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+.card .details .color li {
+  list-style: none;
+  color: #fff;
+  font-size: 0.9em;
+  width: 70px;
+  height: 40px;
+  border: 2px solid #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 500;
+  opacity: 0.65;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.card .details .color li:hover {
+  color: #2e80dd;
+  background: #fff;
+  opacity: 1;
 }
 .card .details::before {
   content: "";

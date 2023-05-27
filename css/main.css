@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f31b6e), color-stop(50%, #f31b6e), color-stop(50%, #03d9ff), to(#03d9ff));
+  background: linear-gradient(#f31b6e, #f31b6e 50%, #03d9ff 50%, #03d9ff 100%);
+}
